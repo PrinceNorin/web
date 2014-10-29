@@ -1,0 +1,42 @@
+@import url('../utility.css');
+@import url('../header.css');
+@import url('../footer.css');
+
+#alpha-left {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#alpha-right {
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.alpha-letter {
+  padding-bottom: 15px;
+}
+
+.alpha-letter h3 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  background-color: rgba(0,0,0,.88);
+}
+
+.alpha-letter ul {
+  padding: 5px 15px;
+  border: 1px dashed #999;
+  border-top: none;
+}
+
+.alpha-letter ul li:nth-child(even) {
+  background-color: #999;
+}
+
+.alpha-letter ul li a {
+  padding: 2px;
+  font-size: 16px;
+  display: block;
+}

@@ -1,0 +1,55 @@
+@import url('utility.css');
+@import url('header.css');
+@import url('slider.css');
+@import url('footer.css');
+
+#tiles {
+  width: 1000px;
+  margin-left: -15px;
+  overflow: hidden;
+  border-top: 3px solid #999;
+}
+#popular, #latest {
+  text-align: center;
+  padding-top: 15px;
+}
+#popular h2, #latest h2 {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-family: "YanoneKaffeesatz";
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #999;
+  background-color: rgba(0,0,0,.88);
+}
+#popular {
+  float: right;
+  border-left: 3px solid #999;
+}
+#latest {
+  border-right: 3px solid #999;
+}
+.image-tile{
+  padding: 0 0 0 0;
+  margin: 0 0 10px 0;
+}
+.image-tile img {
+  width: 124px;
+  height: 190px;
+  margin: 0 5px 0 5px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.34);
+}
+.image-tile figcaption{
+  color: #333;
+  font-size: 16px;
+  height: 30px;
+  text-align: center;
+  line-height: 1;
+  font-family: "YanoneKaffeesatz";
+}
