@@ -1,7 +1,6 @@
 I. OMGAnime - Web Assignment
 ===============================
 Anime information provider site
-===============================
 
 II. Member
 ===============================
@@ -12,10 +11,8 @@ II. Member
 5. Phin Sareth
 6. Meas Vorthana
 7. Ken Sitha
-===============================
 
 III. Working time
 ===============================
 Everyday when have free time
 Generally 10PM - Midnight
-===============================
